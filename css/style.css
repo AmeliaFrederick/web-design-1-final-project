@@ -3,23 +3,30 @@ or adding a personal touch, you can use 'Open Sans' - bold and regular.*/
 html {
 font-family: 'Playfair Display', serif;
 box-sizing: border-box;
-max-width: 1280px;
 }
 /*The maximum width of the container is 1280px. This would be applied to each section 
 (preferably using a reusable class like 'wrapper').*/
-nav { 
+.wrapper {
+    max-width: 1280px;
+}
+
+header { 
     background-color: #0E1215;
     color: white; 
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
 }
-
+header > img {
+    width: 825px;
+    justify-content: center;
+}
 a {
     color: white;
     text-decoration: none;
     margin: 15px;
-
+    padding: 0%;
 }
