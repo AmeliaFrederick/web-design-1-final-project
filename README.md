@@ -1,17 +1,12 @@
 # Web Design 1 - Final Project
 
-
 ## Overview
 
 Using the provided design, write the HTML and CSS to build out the page. The design can be found within the screenshot folder in the repo below.
 
-
-
-
 ## Getting started
 
 Fork and clone this repo down to your local environment
-
 
 The repo only contains a screenshot and asset images from design. This requires you to:
 
